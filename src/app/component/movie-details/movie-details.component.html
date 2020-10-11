@@ -1,0 +1,53 @@
+
+<div class="row">
+    
+    <div class="col-md-4">
+        <img [src]="movie.Poster" [alt]="movie.Title" class="img img-thumbnail">
+    </div>
+    <div class="col-md-8">
+        <h3>{{movie.Title}}</h3>
+        <table class="table ">
+            <tbody>
+                <tr>
+                    <td>Director</td>
+                    <td>{{ movie.Director }}</td>
+                </tr>
+                <tr>
+                    <td>Plot</td>
+                    <td>{{movie.Plot}}</td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td>{{movie.Year}}</td>
+                </tr>
+                <tr>
+                    <td>Actors</td>
+                    <td>{{movie.Actors}}</td>
+                </tr>
+                <tr>
+                    <td>Genre</td>
+                    <td>{{movie.Genre}}</td>
+                </tr>
+                <tr>
+                    <td>Production</td>
+                    <td>{{movie.Production}}</td>
+                </tr>
+                <tr>
+                    <td>Runtime</td>
+                    <td>{{movie.Runtime}}</td>
+                </tr>
+                <tr>
+                    <td>Writer</td>
+                    <td>{{movie.Writer}}</td>
+                </tr>
+                
+                <tr>
+                    <td>imdbRating</td>
+                    <td>{{movie.imdbRating}}</td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </div>
+   
+</div>
